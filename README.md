@@ -29,10 +29,11 @@ Holiday shopping during the Christmas season is a crucial period for retailers, 
 10. How do weather (e.g., snowy, sunny) or specific Christmas events (e.g., "Christmas Market") influence sales and customer behaviour?
 
 ## Skills Demonstrated
-- **Data Analytics**: Extracting, transforming, and analyzing large datasets.
-- **Data Visualization**: Creating an interactive dashboard to communicate insights.
-- **Critical Thinking**: Translating business questions into actionable insights.
-- **Dashboard Design**: Leveraging tools like ZoomCharts for effective storytelling.
+- **Data Analysis**: Conducting in-depth analysis using statistical and data visualization techniques.
+- **DAX Modeling**: Creating advanced DAX formulas for metrics like Average Satisfaction, Repeat Customer Rate, and Top Products.
+- **Dashboard Design**: Building an interactive dashboard in Power BI with a focus on usability and clarity.
+- **Data Transformation**: Cleaning and transforming raw data into meaningful datasets.
+- **Insight Presentation**: Extracting and presenting insights aligned with business questions.
 
 ## Data Sourcing
 The dataset is provided by a leading market research firm and includes:
@@ -49,6 +50,17 @@ More Information About This Challenge: [FP20 Analytics Challenge 22](https://zoo
 To ensure accurate analysis, the following transformations were applied:
 - Cleaned and structured the dataset for accurate analysis.
 - Ensured data consistency and accuracy through normalization and data type adjustments.
+  
+| Before | After |
+|----------|----------|
+| ![](gift_wrap_before.png) | ![](gift_wrap_after.png) |
+| ![](salary.png) | ![](salary_result.png) |
+| ![](sick_days.png) | ![](sick_days_result.png) |
+| ![](remote_work.png) | ![](remote_work_result.png) |
+| ![](satisfaction.png) | ![](satisfaction_result.png) |
+| ![](team_size.png) | ![](team_size_result.png) |
+| ![](employee_status.png) | ![](employee_status_result.png) |
+
 - Data Analysis: Extracting trends and patterns from transactional data.
 - Data Transformation: Using advanced tools (e.g., DAX) to create calculated columns and measures for in-depth analysis.
 - Visualization: Designing interactive dashboards to present insights clearly and effectively.
