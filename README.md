@@ -92,7 +92,7 @@ The analysis focuses on:
 - Shipping methods’ correlation with customer satisfaction.
 - Product popularity and gift wrap usage by age group.
 
-In this project there are 2 pages :
+In this Dashboard there are 2 pages :
 - Overview
 - Details
 
