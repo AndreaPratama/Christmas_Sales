@@ -50,16 +50,18 @@ More Information About This Challenge: [FP20 Analytics Challenge 22](https://zoo
 To ensure accurate analysis, the following transformations were applied:
 - Cleaned and structured the dataset for accurate analysis.
 - Ensured data consistency and accuracy through normalization and data type adjustments.
-  
-| Before | After |
-|----------|----------|
-| ![](gift_wrap_before.png) | ![](gift_wrap_after.png) |
-| ![](salary.png) | ![](salary_result.png) |
-| ![](sick_days.png) | ![](sick_days_result.png) |
-| ![](remote_work.png) | ![](remote_work_result.png) |
-| ![](satisfaction.png) | ![](satisfaction_result.png) |
-| ![](team_size.png) | ![](team_size_result.png) |
-| ![](employee_status.png) | ![](employee_status_result.png) |
+  - Adjustment in specific Columns
+    
+  | Before | After |
+  |----------|----------|
+  | ![](Before_After/gift_wrap_before.png) | ![](Before_After/gift_wrap_after.png) |
+  | ![](Before_After/online_order_before.png) | ![](Before_After/online_order_after.png) |
+  | ![](Before_After/promotion_applied_before.png) | ![](Before_After/promotion_applied_after.png) |
+  | ![](Before_After/return_flag_before.png) | ![](Before_After/return_flag_after.png) |
+  | ![](Before_After/proper_character_before.png) | ![](Before_After/proper_character_after.png) |
+  -  Final Result
+  ![](Before_After/final_result.png) 
+
 
 - Data Analysis: Extracting trends and patterns from transactional data.
 - Data Transformation: Using advanced tools (e.g., DAX) to create calculated columns and measures for in-depth analysis.
