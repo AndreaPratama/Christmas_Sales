@@ -1,6 +1,108 @@
 # Christmas Sales
 
+![](hero.jpg) 
 
+## Introduction
+The "Christmas Sales Analysis Dashboard" project is part of the FP20 Analytics December 2024 Challenge 22. It involves analyzing holiday shopping patterns to uncover customer preferences, promotional effectiveness, and factors influencing satisfaction during the Christmas season. The project leverages a detailed dataset capturing customer demographics, purchase behaviors, and seasonal trends to provide actionable insights for optimizing future holiday strategies.
+
+## Problem Statement
+Holiday shopping during the Christmas season is a crucial period for retailers, characterized by distinct customer behavior, high sales volumes, and promotional campaigns. The objective of this project is to answer key business questions such as:
+
+1. How do sales volumes fluctuate during Christmas compared to other periods in the dataset?
+
+2. What are the age and gender distributions of customers making purchases during Christmas?
+
+3. Which regions or cities show the highest sales volumes during Christmas, and how do these trends compare to non-Christmas periods?
+
+4. What is the effect of promotions on sales during Christmas? Are specific promotions more effective than others?
+
+5. Which products are most popular during Christmas, and how do these preferences vary by age, gender, or location?
+
+6. How do customer satisfaction scores differ for Christmas purchases compared to non-Christmas transactions?
+
+7. What percentage of orders during Christmas include gift wrapping, and which demographics are most likely to use this service?
+
+8. Are express shipping options more popular during the Christmas period? How does delivery time correlate with customer satisfaction?
+
+9. What are the main reasons for product returns during Christmas, and do these differ from returns during other periods?
+
+10. How do weather (e.g., snowy, sunny) or specific Christmas events (e.g., "Christmas Market") influence sales and customer behaviour?
+
+## Skills Demonstrated
+- **Data Analytics**: Extracting, transforming, and analyzing large datasets.
+- **Data Visualization**: Creating an interactive dashboard to communicate insights.
+- **Critical Thinking**: Translating business questions into actionable insights.
+- **Dashboard Design**: Leveraging tools like ZoomCharts for effective storytelling.
+
+## Data Sourcing
+The dataset is provided by a leading market research firm and includes:
+- Transaction details (date, location, sales, products, etc.).
+- Customer demographics (age, gender).
+- Promotional data.
+- Satisfaction scores.
+- Weather conditions during purchases.
+- And More
+
+More Information About This Challenge: [FP20 Analytics Challenge 22](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/fp20-analytics-december-2024)
+
+## Data Transformation
+To ensure accurate analysis, the following transformations were applied:
+- Cleaned and structured the dataset for accurate analysis.
+- Ensured data consistency and accuracy through normalization and data type adjustments.
+- Data Analysis: Extracting trends and patterns from transactional data.
+- Data Transformation: Using advanced tools (e.g., DAX) to create calculated columns and measures for in-depth analysis.
+- Visualization: Designing interactive dashboards to present insights clearly and effectively.
+- Business Intelligence: Deriving actionable recommendations from analytical findings.
+
+## Modeling
+The analysis used a descriptive analytics approach, focusing on summarizing historical data to identify trends and patterns. Key metrics calculated included:
+- Developed relationships between datasets to enable multi-dimensional analysis.
+  ![](relationship.png) 
+- Created DAX measures to calculate key metrics such as:
+  - Total Sales
+    ![](total_sales.png) 
+  - Sales Volume
+    ![](total_kg.png) 
+  - Month-over-month (MoM) changes
+    - Sales
+      ![](sales_mom.png)
+      
+    - Sales Volume
+    ![](sales_volume_mom.png) 
+  - Monthly trends and averages
+    ![](avg_sales.png)
+    
+    ![](avg_sales_volume.png) 
+- Implemented advanced DAX calculations for time-based KPIs and aggregate metrics.
+  - Top Sales Category
+    ![](top_sales_category.png)
+  - Top Sales Item
+    ![](top_sales_item.png)
+  - Top Product Sales Volume KG
+    ![](top_product_volume.png)
+  - Top Volume Package Volume KG
+    ![](top_package_volume.png)
+
+
+## Analyze & Visualization
+The analysis focuses on:
+- Seasonal sales patterns with peaks during Christmas.
+- Customer demographics driving revenue.
+- Regional sales distribution highlighting high-performing stores.
+- Shipping methods’ correlation with customer satisfaction.
+- Product popularity and gift wrap usage by age group.
+
+In this project there are 2 pages :
+- Overview
+- Details
+
+You can interact with report here [FP20 Analytics Challenge 21](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/a39dba3973a45216fae67632c82246b5?challenge=fp20-analytics-november-2024)
+
+![](CandyMarket.png) 
+
+## Conclusion & Recomendation
+
+Conclusion
 1. Sales Volumes During Christmas
 Sales volumes consistently peak during December, with significant contributions from Christmas Markets. Christmas drives substantial revenue, with peaks reaching $49K and a total revenue of $1.65M across the dataset. This demonstrates the critical importance of leveraging the holiday season to maximize sales through strategic campaigns.
 
@@ -30,3 +132,13 @@ Return rates average 50.54%, with slight variations by weather. Returns during C
 
 10. Weather and Event Impacts
 Clear weather and events like Christmas Markets positively influence sales and customer behavior. These factors, combined with a strong seasonal presence, highlight opportunities to tailor marketing efforts to align with favorable conditions and popular events.
+
+Recomendation
+
+1. Seasonal Campaigns: Focus on maximizing sales during December with targeted promotions, especially for electronics and gift wrapping services.
+2. Demographic Targeting: Tailor marketing efforts towards young and middle-aged adults, leveraging gender-specific insights.
+3. Regional Strategies: Allocate resources to high-performing regions while exploring growth opportunities in underperforming areas.
+4. Enhanced Shipping: Prioritize express delivery options during the holiday season to improve customer satisfaction.
+5. Promotion Optimization: Refine promotion types and timing to maximize their impact on sales.
+6. Returns Mitigation: Implement proactive measures, such as better product descriptions and transparent return policies, to address high return rates during Christmas.
+7. Weather-Sensitive Campaigns: Align marketing efforts with weather patterns and capitalize on the influence of clear weather and holiday events.
