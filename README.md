@@ -30,7 +30,11 @@ Holiday shopping during the Christmas season is a crucial period for retailers, 
 
 ## Skills Demonstrated
 - **Data Analysis**: Conducting in-depth analysis using statistical and data visualization techniques.
-- **DAX Modeling**: Creating advanced DAX formulas for metrics like Average Satisfaction, Repeat Customer Rate, and Top Products.
+- **Advanced DAX Formula Creation**:
+  - Calculated Columns
+  - Complex Measures
+  - Dynamic Formatting
+  - Conditional Logic
 - **Dashboard Design**: Building an interactive dashboard in Power BI with a focus on usability and clarity.
 - **Data Transformation**: Cleaning and transforming raw data into meaningful datasets.
 - **Insight Presentation**: Extracting and presenting insights aligned with business questions.
@@ -65,37 +69,53 @@ To ensure accurate analysis, the following transformations were applied:
 
 - Data Analysis: Extracting trends and patterns from transactional data.
 - Data Transformation: Using advanced tools (e.g., DAX) to create calculated columns and measures for in-depth analysis.
+   - Created calculated columns using DAX measures to enhance data exploration
+     
+    | Dax | After |
+  |----------|----------|
+  | ![](Create_New_Column/column_age.png) | ![](Create_New_Column/result_age.png) |
+  | ![](Create_New_Column/colum_transaction_hour.png) | ![](Create_New_Column/result_transaction_hour.png) |
+  | ![](Create_New_Column/column_satisfaction.png) | ![](Create_New_Column/result_satisfaction.png) |
+   
 - Visualization: Designing interactive dashboards to present insights clearly and effectively.
 - Business Intelligence: Deriving actionable recommendations from analytical findings.
 
 ## Modeling
-The analysis used a descriptive analytics approach, focusing on summarizing historical data to identify trends and patterns. Key metrics calculated included:
-- Developed relationships between datasets to enable multi-dimensional analysis.
-  ![](relationship.png) 
-- Created DAX measures to calculate key metrics such as:
-  - Total Sales
-    ![](total_sales.png) 
-  - Sales Volume
-    ![](total_kg.png) 
-  - Month-over-month (MoM) changes
-    - Sales
-      ![](sales_mom.png)
-      
-    - Sales Volume
-    ![](sales_volume_mom.png) 
-  - Monthly trends and averages
-    ![](avg_sales.png)
+The analysis used a descriptive analytics approach, focusing on summarizing historical data to identify trends and patterns. Several DAX measures were created to perform calculations for analysis:
+- **Core DAX Measures**:
+
+  - Calculated Total
     
-    ![](avg_sales_volume.png) 
-- Implemented advanced DAX calculations for time-based KPIs and aggregate metrics.
-  - Top Sales Category
-    ![](top_sales_category.png)
-  - Top Sales Item
-    ![](top_sales_item.png)
-  - Top Product Sales Volume KG
-    ![](top_product_volume.png)
-  - Top Volume Package Volume KG
-    ![](top_package_volume.png)
+  ![](Dax_Measure/total.png)
+
+  - Calculated Average
+    
+  ![](Dax_Measure/average.png)
+
+ - Rate Percent %
+   
+  ![](Dax_Measure/reate_percent.png)
+
+ - Store Ranking
+   
+  ![](Dax_Measure/store_ranking.png)
+
+- **Advanced DAX Measures**:
+  
+ - Reference Label & KPI
+
+   - Reference Label 
+     
+  ![](Dax_Measure/reference_label.svg)
+
+   - Top 1
+     
+  ![](Dax_Measure/top_1.svg)
+
+ - Conditional Formating for Color
+
+   - Top 1
+  ![](Dax_Measure/conditonal_formating.png)
 
 
 ## Analyze & Visualization
