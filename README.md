@@ -130,9 +130,9 @@ In this Dashboard there are 2 pages :
 - Overview
 - Details
 
-You can interact with report here [FP20 Analytics Challenge 21](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/a39dba3973a45216fae67632c82246b5?challenge=fp20-analytics-november-2024)
+You can interact with report here [FP20 Analytics Challenge 22](https://app.powerbi.com/view?r=eyJrIjoiOThlY2IyNWUtYTYzMC00NDcyLTllMGMtOTAzNTJjZjk0NDZmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
 
-![](CandyMarket.png) 
+![](christmas_sales.png) 
 
 ## Conclusion & Recomendation
 
