@@ -71,7 +71,7 @@ To ensure accurate analysis, the following transformations were applied:
 - Data Transformation: Using advanced tools (e.g., DAX) to create calculated columns and measures for in-depth analysis.
    - Created calculated columns using DAX measures to enhance data exploration
      
-    | Dax | After |
+    | Dax | Result |
   |----------|----------|
   | ![](Create_New_Column/column_age.png) | ![](Create_New_Column/result_age.png) |
   | ![](Create_New_Column/colum_transaction_hour.png) | ![](Create_New_Column/result_transaction_hour.png) |
