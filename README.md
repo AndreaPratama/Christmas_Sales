@@ -102,20 +102,20 @@ The analysis used a descriptive analytics approach, focusing on summarizing hist
 
 - **Advanced DAX Measures**:
   
- - Reference Label & KPI
+   - Reference Label & KPI
 
-   - Reference Label 
+     - Reference Label 
      
-  ![](Dax_Measure/reference_label.svg)
+        ![](Dax_Measure/reference_label.svg)
 
-   - Top 1
+     - Top 1
      
-  ![](Dax_Measure/top_1.svg)
+        ![](Dax_Measure/top_1.svg)
 
- - Conditional Formating for Color
+   - Conditional Formating for Color
 
-   - Top 1
-  ![](Dax_Measure/conditonal_formating.png)
+     - Top 1
+        ![](Dax_Measure/conditonal_formating.png)
 
 
 ## Analyze & Visualization
